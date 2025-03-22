@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* This ensures the Timeline component styling works with the rest of the site */
+#timeline-react-root {
+  font-family: 'Montserrat', sans-serif;
+}
